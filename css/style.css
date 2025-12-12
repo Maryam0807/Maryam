@@ -1,6 +1,13 @@
+body {
 
+    border: black 10px; 
+    min-height:800px; 
+    display:flex; 
+    justify-content:space-evenly;
+    align-items:center;  
+}
 #wrapper {
-   width:80%; 
+   width:80%;   
    min-height:95vh;
    border: 1px ; 
    margin:auto;
@@ -11,8 +18,10 @@
    'nv'
 }
 
+
 header {
 
+display:flex;
    background-color: #d9c8b0; 
    grid-area: hd; 
    border-radius: 2%;
